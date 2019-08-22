@@ -17,3 +17,16 @@ nav {
 .jumbotron h1, p {
   color: #fdf7f5;
 }
+
+.jumbotron form {
+  border-radius: 10px;
+  background: #fdf7f5;
+}
+
+.jumbotron form h6 {
+  color: #4e4b5c;
+}
+
+.shadow {
+  box-shadow: 10px 10px 15px #232323;
+}
