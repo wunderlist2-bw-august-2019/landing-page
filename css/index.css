@@ -1,0 +1,21 @@
+body {
+  background: #fdf7f5;
+}
+body nav {
+  background: #4e4b5c;
+}
+body nav .nav-item {
+  color: #fdf7f5;
+}
+body nav .jumbotron {
+  background: #4e4b5c;
+}
+body nav .jumbotron h1,
+body nav p {
+  color: #fdf7f5;
+}
+body .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
