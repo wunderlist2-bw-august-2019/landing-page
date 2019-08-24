@@ -1,19 +1,53 @@
 body {
   background: #f9fbfc;
 }
-body nav {
+
+nav {
   background: #4e4b5c;
 }
-body nav .nav-item {
+
+.nav-item {
   color: #fdf7f5;
 }
-body nav .jumbotron {
+
+.jumbotron {
   background: #4e4b5c;
 }
-body nav .jumbotron h1,
-body nav p {
+
+.jumbotron h1, p {
   color: #fdf7f5;
 }
+
+.jumbotron form {
+  border-radius: 10px;
+  background: #fdf7f5;
+}
+
+.jumbotron form h6 {
+  color: #4e4b5c;
+}
+
+.shadow {
+  box-shadow: 10px 10px 15px #232323;
+}
+
+/* svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+.wave {
+  margin-top: -10%;
+  margin-bottom: -52%;
+  /* display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden; */
+}
+
 body .cards {
   display: flex;
   flex-direction: row;
@@ -83,10 +117,12 @@ body .site-footer .social-icons a {
 body .copyright-text {
   margin: 0;
 }
+
 @media (max-width: 991px) {
   body .cards {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 10%;
   }
