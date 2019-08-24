@@ -14,8 +14,9 @@ body nav .jumbotron h1,
 body nav p {
   color: #fdf7f5;
 }
-body .content {
+body .cards {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10%;
 }
