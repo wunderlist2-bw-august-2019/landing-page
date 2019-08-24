@@ -19,7 +19,8 @@ body {
 
   .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 10%;
 
@@ -97,7 +98,7 @@ body {
       margin-left:6px;
       margin-right:0;
       border-radius:100%;
-      background-color:#33353d
+      background-color:#757575;
     }
     .copyright-text
     {
@@ -105,6 +106,18 @@ body {
     }
     @media (max-width:991px)
     {
+      .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10%;
+
+        .card {
+          // padding-bottom: 2rem;
+
+        }
+      }
+
       .site-footer [class^=col-]
       {
         margin-bottom:30px
@@ -112,6 +125,19 @@ body {
     }
     @media (max-width:767px)
     {
+
+      .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10%;
+
+        .card {
+          // padding-bottom: 2rem;
+
+        }
+      }
+
       .site-footer
       {
         padding-bottom:0
