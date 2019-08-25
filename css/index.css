@@ -55,6 +55,11 @@ body .cards {
   align-items: center;
   padding-bottom: 10%;
 }
+
+body .cards .card p {
+  color: black;
+}
+
 body .site-footer {
   background-color: #4e4b5c;
   padding: 45px 0 20px;
