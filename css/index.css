@@ -1,5 +1,5 @@
 body {
-  background: #fdf7f5;
+  background: #f9fbfc;
 }
 
 nav {
@@ -7,7 +7,7 @@ nav {
 }
 
 .nav-item {
-  color: #fdf7f5;
+  color: #f9fbfc;
 }
 
 .jumbotron {
@@ -15,12 +15,12 @@ nav {
 }
 
 .jumbotron h1, p {
-  color: #fdf7f5;
+  color: #f9fbfc;
 }
 
 .jumbotron form {
   border-radius: 10px;
-  background: #fdf7f5;
+  background: #f9fbfc;
 }
 
 .jumbotron form h6 {
