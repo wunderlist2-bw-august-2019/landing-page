@@ -236,13 +236,25 @@ body .social-icons a.dribbble:hover {
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { }
+@media (min-width: 400px) {
+  .features .row {
+    margin-top: 100px;
+  }
+  .features .features-text {
+    margin-top: 50px;
+  }
+
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+  .features .features-text {
+    margin-top: 0px;
+  }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
