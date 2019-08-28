@@ -237,6 +237,12 @@ body .social-icons a.dribbble:hover {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 400px) {
+  .jumbotron .form {
+    margin-top: 70px;
+  }
+  body .card {
+    margin-top: 40px;
+  }
   .features .row {
     margin-top: 100px;
   }
@@ -251,6 +257,9 @@ body .social-icons a.dribbble:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  body .card {
+    margin-top: 0px;
+  }
   .features .features-text {
     margin-top: 0px;
   }
