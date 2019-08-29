@@ -263,6 +263,11 @@ body .social-icons a.dribbble:hover {
   .features .features-text {
     margin-top: 0px;
   }
+
+  .features .switch {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
